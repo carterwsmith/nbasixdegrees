@@ -14,7 +14,7 @@
     position: absolute;
     width: 100%;
     height: 17vh;
-    background-color: #ee6630;
+    background-image: linear-gradient(45deg,#013369 50%, #D50A0A 50%);
     border-bottom: 3vh solid black;
     z-index: 3;
 }
@@ -65,7 +65,7 @@
 }
 body{
     background-color: rgb(39, 39, 39);
-    background-image: url("../images/background.jpg");
+    background-image: url("../images/turf.png");
     font-family: 'Roboto', sans-serif;
 
     
@@ -77,12 +77,12 @@ body{
     transform: translateX(-50%);
     width: 90%;
     /* background-color: rgb(253, 192, 80); */
-    background-color: rgba(255, 255, 255, 0.322);
+    background-color: rgba(255, 255, 255, 0.6);
     height: 70vh;
     max-width: 900px;
     overflow-y: scroll;
     border-radius: 0 0 10vh 10vh;
-    border: 2vh solid black;
+    border: 1vh solid black;
     border-top: none;
 
     /* border: 6px solid black; */
@@ -287,7 +287,7 @@ body{
     text-transform: uppercase;
     font-weight: 700;
     color: #000000;
-    background-image: linear-gradient(45deg,#e68a65c9 50%, #ee6730 50%);
+    background-image: linear-gradient(45deg,#D50A0A 50%, #D50A0A 50%);
     background-position: 100%;
     background-size: 400%;
     transition: all 300ms ease-in-out; 

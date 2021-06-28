@@ -113,141 +113,174 @@ function displayConnections(winArray){
         let list = document.createElement("li");  
         //add css colors by team name
         switch(teamname){
-            case "Atlanta Hawks":
-                            list.classList.add("hawks");
+            case "Arizona Cardinals":
+                            list.classList.add("cardinals");
                             break;
-            case "Boston Celtics":
-                            list.classList.add("celtics");
+            case "Chicago Cardinals":
+                            list.classList.add("cardinals");
                             break;
-            case "Cleveland Cavaliers":
-                            list.classList.add("cavaliers");
+            case "Chi/Pit Cards/Steelers":
+                            list.classList.add("cardinals");
                             break;
-            case "New Orleans Pelicans":
-                            list.classList.add("pelicans");
+            case "St. Louis Cardinals":
+                            list.classList.add("cardinals");
                             break;
-            case "Chicago Bulls":
-                            list.classList.add("bulls");
+            case "Phoenix Cardinals":
+                            list.classList.add("cardinals");
                             break;
-            case "Dallas Mavericks":
-                            list.classList.add("mavericks");
+            case "Atlanta Falcons":
+                            list.classList.add("falcons");
+                            break;       
+            case "Baltimore Ravens":
+                            list.classList.add("ravens");
+                            break;       
+            case "Buffalo Bills":
+                            list.classList.add("bills");
+                            break; 
+            case "Carolina Panthers":
+                            list.classList.add("panthers");
                             break;
-            case "Denver Nuggets":
-                            list.classList.add("nuggets");
+            case "Chicago Bears":
+                            list.classList.add("bears");
                             break;
-            case "Golden State Warriors":
-                            list.classList.add("warriors");
+            case "Decatur Staleys":
+                            list.classList.add("bears");
                             break;
-            case "Houston Rockets":
-                            list.classList.add("rockets");
+            case "Chicago Staleys":
+                            list.classList.add("bears");
                             break;
-            case "Los Angeles Clippers":
-                            list.classList.add("clippers");
+            case "Cincinnati Bengals":
+                            list.classList.add("bengals");
                             break;
-            case "San Diego Clippers":
-                            list.classList.add("clippers");
+            case "Cleveland Browns":
+                            list.classList.add("browns");
                             break;
-            case "Los Angeles Lakers":
-                            list.classList.add("lakers");
+            case "Dallas Cowboys":
+                            list.classList.add("cowboys");
                             break;
-            case "Miami Heat":
-                            list.classList.add("heat");
+            case "Denver Broncos":
+                            list.classList.add("broncos");
                             break;
-            case "Milwaukee Bucks":
-                            list.classList.add("bucks");
+            case "Detroit Lions":
+                            list.classList.add("lions");
                             break;
-            case "Minnesota Timberwolves":
-                            list.classList.add("timberwolves");
+            case "Portsmouth Spartans":
+                            list.classList.add("vikings");
                             break;
-            case "New Jersey Nets":
-                                list.classList.add("timberwolves");
-                                break;
-            case "Brooklyn Nets":
-                            list.classList.add("nets");
+            case "Green Bay Packers":
+                            list.classList.add("packers");
                             break;
-            case "New York Knicks":
-                            list.classList.add("knicks");
+            case "Houston Texans":
+                            list.classList.add("texans");
                             break;
-            case "Orlando Magic":
-                            list.classList.add("magic");
+            case "Indianapolis Colts":
+                            list.classList.add("colts");
                             break;
-            case "Indiana Pacers":
-                            list.classList.add("pacers");
+            case "Baltimore Colts":
+                            list.classList.add("colts");
                             break;
-            case "Philadelphia 76ers":
-                            list.classList.add("sixers");
+            case "Jacksonville Jaguars":
+                            list.classList.add("jaguars");
                             break;
-            case "Syracuse Nationals":
-                            list.classList.add("sixers");
+            case "Kansas City Chiefs":
+                            list.classList.add("chiefs");
                             break;
-            case "Phoenix Suns":
-                            list.classList.add("suns");
+            case "Dallas Texans":
+                            list.classList.add("cowboys");
                             break;
-            case "Portland Trail Blazers":
-                            list.classList.add("blazers");
+            case "Las Vegas Raiders":
+                            list.classList.add("raiders");
                             break;
-            case "Sacramento Kings":
-                            list.classList.add("kings");
+            case "Oakland Raiders":
+                            list.classList.add("raiders");
                             break;
-            case "Kansas City Kings":
-                            list.classList.add("pistons");
+            case "Los Angeles Raiders":
+                            list.classList.add("raiders");
                             break;
-            case "Cincinnati Royals":
-                            list.classList.add("pistons");
+            case "Los Angeles Chargers":
+                            list.classList.add("chargers");
                             break;
-            case "San Antonio Spurs":
-                            list.classList.add("spurs");
+            case "San Diego Chargers":
+                            list.classList.add("chargers");
                             break;
-            case "Oklahoma City Thunder":
-                            list.classList.add("thunder");
+            case "Los Angeles Rams":
+                            list.classList.add("rams");
                             break;
-            case "Toronto Raptors":
-                            list.classList.add("raptors");
+            case "Cleveland Rams":
+                            list.classList.add("rams");
                             break;
-            case "Utah Jazz":
-                            list.classList.add("jazz");
+            case "St. Louis Rams":
+                            list.classList.add("stlrams");
                             break;
-            case "Memphis Grizzlies":
-                            list.classList.add("grizzlies");
+            case "Miami Dolphins":
+                            list.classList.add("dolphins");
                             break;
-            case "Vancouver Grizzlies":
-                                list.classList.add("grizzlies");
-                                break;
-            case "Washington Wizards":
-                            list.classList.add("wizards");
+            case "Minneosta Vikings":
+                            list.classList.add("vikings");
                             break;
-            case "Washington Bullets":
-                            list.classList.add("wizards");
+            case "New England Patriots":
+                            list.classList.add("patriots");
                             break;
-            case "Baltimore Bullets":
-                            list.classList.add("wizards");
+            case "Boston Patriots":
+                            list.classList.add("patriots");
                             break;
-            case "Detroit Pistons":
-                            list.classList.add("pistons");
+            case "New England Patriots":
+                            list.classList.add("patriots");
                             break;
-            case "Charlotte Hornets":
-                            list.classList.add("hornets");
+            case "New Orleans Saints":
+                            list.classList.add("saints");
                             break;
-            case "New Orleans Hornets":
-                                list.classList.add("hornets");
-                                break;
-            case "Seattle Supersonics":
-                            list.classList.add("sonics");
+            case "New York Giants":
+                            list.classList.add("giants");
                             break;
-            case "Charlotte Bobcats":
-                            list.classList.add("bobcats");
+            case "New York Jets":
+                            list.classList.add("jets");
                             break;
-            case "Philadelphia Warriors":
-                                list.classList.add("knicks");
-                                break;
-            case "Minneapolis Lakers":
-                                list.classList.add("minneapolis");
-                                break;
-            case "St. Louis Hawks":
-                                list.classList.add("hawks");
-                                break;
-            case "Buffalo Braves":
-                                list.classList.add("blazers");
-                                break;
+            case "New York Titans":
+                            list.classList.add("stlrams");
+                            break;
+            case "Philadelphia Eagles":
+                            list.classList.add("eagles");
+                            break;
+            case "Phi/Pit Eagles/Steelers":
+                            list.classList.add("eagles");
+                            break;
+            case "Pittsburgh Steelers":
+                            list.classList.add("steelers");
+                            break;
+            case "Pittsburgh Pirates":
+                            list.classList.add("steelers");
+                            break;
+            case "San Francisco 49ers":
+                            list.classList.add("niners");
+                            break;
+            case "Seattle Seahawks":
+                            list.classList.add("seahawks");
+                            break;
+            case "Tampa Bay Buccaneers":
+                            list.classList.add("buccaneers");
+                            break;
+            case "Tennessee Titans":
+                            list.classList.add("titans");
+                            break;
+            case "Houston Oilers":
+                            list.classList.add("oilers");
+                            break;
+            case "Tennessee Oilers":
+                            list.classList.add("oilers");
+                            break;
+            case "Washington Football Team":
+                            list.classList.add("wft");
+                            break;
+            case "Boston Braves":
+                            list.classList.add("wft");
+                            break;
+            case "Boston Redskins":
+                            list.classList.add("wft");
+                            break;
+            case "Washington Redskins":
+                            list.classList.add("wft");
+                            break;
 
             default:
                                 list.classList.add("default");

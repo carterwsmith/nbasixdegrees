@@ -215,7 +215,7 @@ function displayConnections(winArray){
             case "Miami Dolphins":
                             list.classList.add("dolphins");
                             break;
-            case "Minneosta Vikings":
+            case "Minnesota Vikings":
                             list.classList.add("vikings");
                             break;
             case "New England Patriots":

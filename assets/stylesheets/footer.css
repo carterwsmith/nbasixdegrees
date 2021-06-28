@@ -14,14 +14,15 @@
 }
 
 .footer i{
-    color:black;
+    color:skyblue;
     font-size: 34px;
     transition: all 0.5s;
+    padding: 20px;
     margin: 0vw 0.5vh;
 }
 
 .footer i:hover{
-    color:rgb(41, 41, 41);
+    color:rgb(81, 124, 141);
 }
 
 

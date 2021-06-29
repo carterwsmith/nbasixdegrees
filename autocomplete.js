@@ -14,12 +14,14 @@ function autocomplete(inp, arr) {
         a.setAttribute("class", "autocomplete-items disable-scrollbars");
 
         this.parentNode.parentNode.appendChild(a);
-
+        var count = 0
         for (i = 0; i < arr.length; i++) {
-
+          if (count == 20) {
+            break;
+          }
           // if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
           if (arr[i].toUpperCase().match(val.toUpperCase())) {
-
+            count++;
             b = document.createElement("DIV");
 
             // b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";

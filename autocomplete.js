@@ -15,7 +15,7 @@ function autocomplete(inp, arr) {
 
         this.parentNode.parentNode.appendChild(a);
 
-        for (i = 0; i < 20; i++) {
+        for (i = 0; i < arr.length; i++) {
 
           // if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
           if (arr[i].toUpperCase().match(val.toUpperCase())) {

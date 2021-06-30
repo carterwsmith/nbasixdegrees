@@ -1,5 +1,9 @@
 //Upper case formatting
 function toTitleCase(str) {
+    var numUpper = str.length - str.replace(/[A-Z]/g, '').length;
+    if (numUpper > 1) {
+        return str;
+    }  
     return str.replace(
       /\w*/g,
       function(txt) {
@@ -44,7 +48,7 @@ function getPath() {
     var startPlayer = toTitleCase(document.getElementById("playerInput1").value).replace("JR.","Jr.")
     var endPlayer = toTitleCase(document.getElementById("playerInput2").value).replace("JR.","Jr.")
     if(!players[startPlayer]||!players[endPlayer]){
-        document.getElementById("connections-list").innerHTML = "Player Not Found";
+        document.getElementById("connections-list").innerHTML = "Player not found: try retyping your player and selecting from the dropdown.";
         return false;
     }
 

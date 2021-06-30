@@ -51,7 +51,6 @@ var newPlayers = [
     "Lawrence Taylor",
     "Jim Brown",
     "Walter Payton",
-    "Reggie White",
     "Dick Butkus",
     "Deion Sanders",
     "Barry Sanders",
